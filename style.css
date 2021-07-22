@@ -1,0 +1,234 @@
+
+/*===========Header================*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/wood-bg.png');
+    background-repeat: repeat-x;
+    
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+/*===========Top tabs================*/
+#tabstop{
+   position: fixed;
+    top: 80px;
+    left: 0;
+     z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: darkgreen;
+    
+}
+#tabstop a{
+   float: left;
+    display: block;
+    text-align: center;
+     font-weight: 700;
+    width: 33%;
+    height: 35px;
+    color: white;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*===========Main Home================*/
+
+#mainhome {
+
+    margin-top: 120px;
+    
+}
+
+/*===========Bottom Tabs================*/
+
+#tabsbottom {
+   position: fixed;
+    bottom: 0;
+    left: 0;
+     z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: forestgreen;
+    
+}
+#tabsbottom a{
+   float: left;
+    display: block;
+    text-align: center;
+     font-weight: 700;
+    width: 33%;
+    height: 35px;
+    color: white;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*===============Main============*/
+
+#main{
+   margin-top: 119px;
+    background: url(images/map-blur.png);
+    background-repeat: repeat-y;
+}
+
+#content{
+   padding-top: 1px;
+    padding-bottom: 50px;
+    
+}
+
+/*===============INFO Box============*/
+
+a.infobox{
+   text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+    
+}
+
+.infobox img{
+    height: 70px;
+    margin: 10px;
+    float:left;
+    
+}
+
+.infobox h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #572800;
+    
+}
+
+.infobox p{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    color: #131313;
+    
+}
+
+.infobox img.right{
+   float: right;
+    margin-top: 25px;
+    height: 40px;
+        
+}
+/*===============Infobox-Full===============*/
+
+#infobox-full{
+    background-color: rgba(255, 255, 255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+
+#infobox-full img{
+    width: 100%;
+}
+    
+#infobox-full h3{
+   text-align: center;
+}    
+
+
+/*===============weather===============*/
+
+img.infobox-weather-icon{
+    height:60px;
+     width: 10%!important; 
+     margin: 10px;
+    float: left;
+}
+
+h1.infobox-weathericon{
+    font-weight: 200;
+    font-size: 65px;
+    padding: 0;
+    margin:0;
+}
+
+table{
+    
+    width:100%;
+    
+}
+
+td{
+    
+  border-top:1px solid #131313; 
+}
+
+/*===============Feedback Form===============*/
+
+input{
+    width: 100%;
+    height:12px;
+    margin: 12px 0;
+    border:1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border:1px solid #929292;
+    
+}
+
+.button{
+    
+    display: block;
+    width: 100%;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0;
+    padding: 12px 0;
+}
+
+button{
+    
+    background-color: orange;
+    text-align: center;
+     color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 16px;
+    padding: 12px 10px;
+    
+}
+}
+
+
+
+
+
+
